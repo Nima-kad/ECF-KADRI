@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-------------------------HEADER----------------->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Compétences</a></li>
+                <li><a href="#">Projet</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-------------------------MAIN----------------->
+    <main>
+        <section class="profile">
+                <img src="image/profile.jpg" alt="Image Profil">  
+                <p>Passionnée par le développement web, je crée des sites dynamiques et fonctionnels en HTML, CSS, JavaScript et PHP. Mon objectif : allier performance et design pour offrir des expériences utilisateurs optimales, je conçois des sites modernes, intuitifs et performants. De la structure au design en passant par la fonctionnalité, chaque ligne de code est pensée pour offrir une expérience fluide et engageante.</p>
+        </section>
+
+        <section class="competence">
+            <h2>Compétences</h2>
+            <div class="langages-programmation">
+                <button class="btn1">HTML</button>
+                <button class="btn2">CSS</button>
+                <button class="btn3">JavaScript</button>
+                <button class="btn4">PHP</button>
+                <button class="btn5">SQL</button>
+                <button class="btn6">Boostrap</button>
+                <button class="btn7">jQuery</button>
+                <button class="btn8">Symfony</button>
+            </div>
+            <div class="objectif">
+                <div class="front-back-end">
+                    <h4>Front-end</h4>
+                    <p>Passionnée par le design et l'expérience utilisateur, je développe des interfaces modernes et interactives en utilisant HTML, CSS et JavaScript. Mon objectif est de créer des sites web réactifs et intuitifs, en alliant esthétique et performance pour offrir une navigation fluide sur tous les appareils.</p>
+                </div>
+                <div class="front-back-end">
+                    <h4>Back-end</h4>
+                    <p>Côté serveur, je m’appuie sur PHP pour concevoir des applications robustes et sécurisées. Gestion des bases de données, traitement des requêtes et optimisation des performances sont au cœur de mon approche, garantissant ainsi des sites dynamiques et fonctionnels adaptés aux besoins des utilisateurs.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="projets">
+            <h2>Projets</h2>
+            <div class="projet-card">
+                <div class="projet">
+                    <h4>Projet 1 :</h4>
+                    <p>Développement d’une plateforme permettant aux utilisateurs de créer, gérer et s’inscrire à des événements. Front-end en HTML, CSS et JavaScript avec une interface responsive. Back-end en PHP et MySQL pour la gestion des utilisateurs et des événements.</p>
+                    <button>En voir plus</button>
+                </div>
+                
+                <div class="projet">
+                    <h4>Projet 2 :</h4>
+                    <p>Création d’un blog dynamique avec gestion de contenu. Front-end en HTML, CSS et JavaScript pour une navigation fluide. Back-end en PHP et MySQL pour la gestion des articles, des commentaires et des utilisateurs.</p>
+                    <button>En voir plus</button>
+                </div>
+                
+                <div class="projet">
+                    <h4>Projet 3 :</h4>
+                    <p>Développement d’un site e-commerce avec panier d’achat et paiement sécurisé. Front-end moderne en HTML, CSS et JavaScript. Back-end en PHP avec gestion des produits, des commandes et des utilisateurs via une base de données MySQL.</p>
+                    <button>En voir plus</button>
+                </div>
+                
+                <div class="projet">
+                    <h4>Projet 4 :</h4>
+                    <p>Création d’un système de gestion de tâches collaboratif. Interface utilisateur en HTML, CSS et JavaScript avec gestion en temps réel. Back-end en PHP et MySQL pour la gestion des utilisateurs, des tâches et des notifications.</p>
+                    <button>En voir plus</button>
+                </div>
+                
+                <div class="projet">
+                    <h4>Projet 5 :</h4>
+                    <p>Développement d’un forum en ligne avec création de sujets, réponses et système de modération. Front-end en HTML, CSS et JavaScript avec une interface claire. Back-end en PHP et MySQL pour la gestion des discussions, des utilisateurs et des permissions.</p>
+                    <button>En voir plus</button>
+                </div>
+                <div class="projet">
+                    <h4>Projet 6 :</h4>
+                    <p>Développement d’un tableau de bord interactif pour la gestion de données. Front-end en HTML, CSS et JavaScript avec des graphiques dynamiques. Back-end en PHP et MySQL pour la gestion et l’analyse des données en temps réel.</p>
+                    <button>En voir plus</button>
+                </div>
+                
+                
+            </div>
+        </section>
+        <!----------------------------------->
+        <section class="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="user-name" autocomplete ="name"placeholder="Entrez votre nom" >
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user_mail" autocomplete ="mail"placeholder="Entrez votre e-mail">
+                <label for="message">Message</label>
+                <textarea id="message"name="message"placeholder="Saisez votre message ici " ></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        
+    </main>
+    <!-------------------------FOOTER----------------->
+
+    <footer>
+        <p>Copyright - <span>&copy;</span> 2025</p>
+    </footer>
+</body>
+</html>

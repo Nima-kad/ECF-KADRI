@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h4 {
+    text-decoration: underline double;
+    color:#333;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+}
+header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+}
+nav a:hover{
+   color: steelblue;
+
+}
+/*****Style main section 1*****/
+.profile{
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.profile img {
+    max-width: 300px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.profile img:hover{
+    transform: scale(1.2);
+}
+.profile p {
+    max-width: 300px;
+    padding: 15px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+}
+.competence{
+    padding: 10px;
+    text-align: center;
+}
+.langages-programmation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.langages-programmation button{
+    margin-top: 10px;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.langages-programmation button:hover{
+   transform: scale(1.2);
+}
+
+.btn1{
+    background-color: blueviolet;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn2{
+    background-color: olivedrab;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn3{
+    background-color: rgb(226, 43, 198);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn4{
+    background-color: rgb(48, 158, 180);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn5{
+    background-color: rgb(242, 60, 60);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn6{
+    background-color: rgb(249, 230, 15);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn7{
+    background-color: rgb(43, 49, 226);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.btn8{
+    background-color:brown;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+/*Section2 front et back**/
+.objectif{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.front-back-end{
+    max-width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    background: lightblue;
+    border-radius: 15px;
+    border: 6px black double;
+}
+.front-back-end:hover {
+    transform: translate(30px, 0px);
+    background-color: rgba(42, 44, 165, 0.499);
+}
+
+
+/*section projet*/
+.projets{
+    background-color: thistle;
+    padding: 10px 0;
+    text-align: center;
+}
+.projet-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.projet {
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(255, 228, 196, 0.822);
+    border: double black;
+    border-radius: 50px 1px 50px 1px;
+}
+.projet:hover{
+    background-color:rgba(193, 118, 26, 0.822);
+}
+
+.projet button{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(165, 124, 42, 0.497);
+    font-weight: bold;
+}
+
+
+/* Formulaire */
+.contact {
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.contact h2{
+    text-align: center;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: black solid;
+}
+
+form button {
+    font-weight: bold;
+    border-radius: 10px;
+    border: black solid;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(165, 124, 42, 0.497);
+}
+/**FOOTER**/
+footer { 
+    width: 100%;
+    height: 40px;
+    background-color: thistle;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+
+} 
+footer p{
+    margin: auto;
+    color: darkslateblue;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+}
+footer span{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+@media screen and  (min-width: 768px) {
+    
+    
+    .front-back-end{
+        max-width: 40%;
+    }
+    
+    .profile p{
+        max-width: 50%;
+        font-size: px;
+    }
+
+
+
+}
+
+
