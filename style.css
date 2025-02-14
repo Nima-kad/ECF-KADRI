@@ -5,21 +5,23 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    background: #f0f2f5;
+
 }
 h4 {
     text-decoration: underline double;
     color:#333;
     margin-bottom: 10px;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: auto;    
 }
 
 p {
     font-size: 15px;
     line-height: 1.5;
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
+
 }
 header {
     background-color: burlywood;
@@ -66,8 +68,7 @@ nav a:hover{
 .profile p {
     max-width: 300px;
     padding: 15px;
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
+    
 }
 .competence{
     padding: 10px;
@@ -86,6 +87,8 @@ nav a:hover{
     text-align: center;
     border-radius: 15px;
     font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
 }
 .langages-programmation button:hover{
    transform: scale(1.2);
@@ -93,43 +96,34 @@ nav a:hover{
 
 .btn1{
     background-color: blueviolet;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    
 }
 .btn2{
     background-color: olivedrab;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    
 }
 .btn3{
     background-color: rgb(226, 43, 198);
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+
 }
 .btn4{
     background-color: rgb(48, 158, 180);
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+ 
 }
 .btn5{
     background-color: rgb(242, 60, 60);
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+    
 }
 .btn6{
     background-color: rgb(249, 230, 15);
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+   
 }
 .btn7{
     background-color: rgb(43, 49, 226);
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
+   
 }
 .btn8{
     background-color:brown;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
 }
 /*Section2 front et back**/
 .objectif{
@@ -194,25 +188,36 @@ nav a:hover{
     padding: 20px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
+
 }
 .contact h2{
     text-align: center;
 }
 
 #contact-form{
+    padding: 20px;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    width: 100%;
     max-width: 400px;
-    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 input, textarea{
     margin: 10px 0;
     padding: 10px;
     width: 100%;
-    border-radius: 10px;
-    border: black solid;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 1px black solid;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
 }
+
 
 form button {
     font-weight: bold;
