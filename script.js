@@ -20,5 +20,5 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     console.log("Votre nom:", name);
     console.log("Votre email:", email);
     console.log("Votre message:", message);
-    alert("Votre message envoyé avec succées 🤩💯");
+    alert("Votre message envoyé avec succées 🤩💯"+name);
 });
